@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+
+    <div class="rodape">
+        <div class="enviar">
+            <section class="C-rodapé" >
+                <div>
+                    <h3><a href="portifoliofinal.html">Voltar para página inicial</a></h3>
+                </div>
+                <h3>Envie uma mensagem:</h3>
+               <form from="" class="form">
+                <label for="nome"><strong>Nome:</strong></label>
+                <br>
+                <input class="entrada" type="text" name="nome" required>
+                    <br>
+                <label for="email"><strong>E-mail:</strong></label>
+                <br>
+                <input class="entrada" type="email" name="email" required>
+
+                <div class="campo"><br>
+                    <label>Sou pessoa:</label><br>
+                    <label><input type="radio" name="pessoa" value="pf">Pessoa Juridica</label>
+                    <label><input type="radio" name="pessoa" value="pj">Pessoa Fisica</label>
+                    <br>
+                </div>
+                <div><br>
+
+                <div class="campo"><br>
+                    <label>Gênero:</label><br>
+                    <label><input type="radio" name="pessoa" value="feminino">feminino</label>
+                    <label><input type="radio" name="pessoa" value="masculino">masculino</label>
+                    <label><input type="radio" name="pessoa" value="nagen">prefiro não responder</label>
+                    <br>
+                </div>
+                <div><br>
+                    <label for="texto">Digite aqui sua mensagem:</label><br>
+                    <textarea class="entrada" type="text" name="texto" required></textarea>
+                </div>
+                <div>
+                    <p><strong>Tipo de contratação:</strong></p>
+                    <select name=”TipoDeServiço”>
+    
+                        <option value=”Free”>Freelancer</option>
+                        
+                        <option value=”PJ”>Pessoa juridica </option>
+                        
+                        <option value=”CLT”>CLT</option>
+                        
+                        </select>
+                </div>
+                <div class="campo">
+                    <br><label>Qual é a área de atuação?</label>
+                    <br><br>
+                    <label>
+                    <input type="checkbox", name="dfda" value="1" > frontend </label>
+                    <label>
+                    <input type="checkbox", name="dfda" value="2"> backend </label>
+                    <label>
+                    <input type="checkbox", name="dfda" value="9"> fullstack </label>
+                </div>
+    
+                <br><br>
+                <input class="btnform" type="submit" name="submit" value="Enviar">
+                <input class="btnform" type="reset" name="reset" value="Limpar">
+               </form>
+    
+            </section>
+        </div>
+    </div>
+</body>
+
+<style>
+
+.rodape{
+    background-color: rgb(55, 89, 111);
+    border-radius: 10px ;
+    padding-left: 1%;
+    margin-top:10px;
+    padding: 5px 0px 10px 20px;
+}
+
+.texto{
+    font-size: 17px;
+}
+
+
+.btnform{
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.btnform:hover{
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #ccc;
+    transform: scale(1.1);
+    
+}
+
+.entrada{
+    border:2px solid black;
+    border-radius: 3px;
+    width: 300px;
+    resize: vertical;
+}
+
+input::marker{
+    background-color: #ccc;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: rgb(37, 34, 34);
+}
+
+</style>
+
+
+</html>
